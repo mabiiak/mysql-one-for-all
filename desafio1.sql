@@ -67,9 +67,9 @@ CREATE TABLE SpotifyClone.relacao_seguidores(
 INSERT INTO SpotifyClone.planos (id_plano, nome_plano, valor)
 VALUES
   ('1', 'gratuito', '0.00'),
-  ('2', 'familiar', '5.99'),
-  ('3', 'universitario', '6.99'),
-  ('4', 'pessoal', '7.99');
+  ('2', 'familiar', '7.99'),
+  ('3', 'universitario', '5.99'),
+  ('4', 'pessoal', '6.99');
   
 INSERT INTO SpotifyClone.artista (id_artista, nome_artista)
 VALUES
@@ -95,16 +95,16 @@ VALUES
 
 INSERT INTO SpotifyClone.usuario (id_usuario, nome_usuario, idade, id_plano, data_assinatura)
 VALUES
-  ('1', 'Thati', '23', '1', '2019-10-20'),
-  ('2', 'Cintia', '35', '4', '2017-12-30'),
-  ('3', 'Bill', '20', '2', '2019-06-05'),
-  ('4', 'Roger', '45', '3', '2020-05-13'),
-  ('5', 'Norman', '58', '3', '2017-02-17'),
-  ('6', 'Patrick', '33', '4', '2017-01-06'),
-  ('7', 'Vivian', '26', '2', '2018-01-05'),
-  ('8', 'Carol', '19', '2', '2018-02-14'),
-  ('9', 'Angelina', '42', '4', '2018-04-29'),
-  ('10', 'Paul', '46', '4', '2017-01-17');
+('1', 'Thati', '23', '1', '2019-10-20'),
+  ('2', 'Cintia', '35', '2', '2017-12-30'),
+  ('3', 'Bill', '20', '3', '2019-06-05'),
+  ('4', 'Roger', '45', '4', '2020-05-13'),
+  ('5', 'Norman', '58', '4', '2017-02-17'),
+  ('6', 'Patrick', '33', '2', '2017-01-06'),
+  ('7', 'Vivian', '26', '3', '2018-01-05'),
+  ('8', 'Carol', '19', '3', '2018-02-14'),
+  ('9', 'Angelina', '42', '2', '2018-04-29'),
+  ('10', 'Paul', '46', '2', '2017-01-17');
   
 INSERT INTO SpotifyClone.musicas (id_musicas, id_artista, id_albuns, musicas_nome, duracao)
 VALUES
