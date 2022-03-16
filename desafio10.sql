@@ -1,5 +1,5 @@
 SELECT 
-	mus.musicas_nome AS nome,
+    mus.musicas_nome AS nome,
     COUNT(hist.id_musicas) AS reproducoes
     
 FROM SpotifyClone.planos AS pl
