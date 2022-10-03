@@ -51,6 +51,7 @@
       * Exemplo:
         * `git commit -m 'descrição commit'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+</details>
 
 <details>
   <summary>
